@@ -26,7 +26,7 @@ Add drivers in the PATH variable.
 Run test with following command:
 ```bash
 npm run test #run tests using browser specified in tests file
-ex. npm test -- --grep "Add three items by name to cart and verify customer is able to successfully checkout"
+ex. TEST_USERNAME=standard_user TEST_PASSWORD=secret_sauce npm test -- --grep "Add three items by name to cart and verify customer is able to successfully checkout"
 #or
 npm run test:chrome #run tests using chrome headless browser
 #or
